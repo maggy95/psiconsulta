@@ -1,0 +1,177 @@
+h1,h2,h4,h5{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.position{
+    position: absolute !important;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: none !important;
+    color: white !important;
+}
+#intro {
+    background: url(../images/tile1.png) fixed;
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    background-repeat: repeat;
+    background-size: initial;
+    height: 42.2em;
+    top: 3.5em;
+    padding-left: 6em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+#bloque-img2 {
+    background: url(../images/img02.jpg) 50% 0 fixed ;
+     height: 300px;
+    padding: 100px 0;
+}
+.nav{
+    padding-top: 9px;
+}
+.banner{
+    width: 100%;
+    padding-top: 5.5em;
+}
+.go{
+    background-color: #025F8F;
+    padding-top: 1em;
+    position: absolute;
+    top: 40em;
+    left: 76em;
+    padding-bottom: 1em;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active{
+    background: #025F8F;
+    color: white !important;
+}
+.active:hover{
+    color: black !important;
+}
+li a:hover:not(.active) {
+    background: #0582c3 !important;
+}
+.gmail{
+    width: 4%;
+}
+.somos-img{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0% 0% 11%;
+}
+.submit{
+  padding: 1.8%;
+    background: #025F8F;
+    width: 15%;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 7%;
+    border-radius: 4px;
+}
+.sent{
+  margin-left: 7%;
+  margin-bottom: 5%;
+  font-size: 1.8em;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-control{
+  background: rgba(255, 255, 255, 0.1);
+
+}
+footer{
+    background-image: url('../images/tile2.png');
+    background-repeat: repeat;
+    height: 4.6em;
+}
+.frase{
+    background: url(../images/background.jpg) fixed;
+    margin: 0 auto;
+    width: 100%;
+    padding: 60px 100px 60px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    footer {
+        height: 82px;
+    }
+    .info {
+        top: 112% !important;
+    }
+    #intro{
+        height: 48.2em !important;
+    }
+    .info1{
+        top: 100%;
+    }
+    .somos-img{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        padding: 2% 0% 0% 11%;
+        margin-top: 0%;
+    }
+    .house{
+        padding-top: 8%;
+    padding-left: 26% !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    footer {
+        height: 144px;
+    }
+}
+.info{
+    top: 90%;
+}
+.service{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.area{
+    padding-top: 3%;
+}
+@media only screen and (min-width: 1000px) {
+    .date{
+        padding-top: 7.5%;
+    font-size: 20px;
+    text-align: justify;
+    }
+    .house{
+        padding-top: 7%;
+    }
+}
