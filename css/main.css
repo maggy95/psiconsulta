@@ -175,3 +175,17 @@ footer{
         padding-top: 7%;
     }
 }
+#contacto{
+    top: 90%;
+    background-image: url('../images/tile2.png');
+    background-repeat: repeat;
+    height: 4.6em;
+}
+.direccion{
+    padding-top: 6%;
+}
+@media only screen and (max-width: 1000px) {
+    #contacto {
+        top: 127%;
+    }
+}
